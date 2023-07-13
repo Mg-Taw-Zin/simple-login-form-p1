@@ -6,7 +6,6 @@
 }
 
 body {
-  overflow: hidden;
   background: #333;
 }
 
@@ -33,7 +32,7 @@ form {
   box-shadow: 0 0 10px #000;
   border-radius: 10px;
   text-align: center;
-  color: #5c5cd6;
+  color: #5c5cd5;
   padding: 30px 20px;
 }
 
@@ -180,14 +179,14 @@ span {
 @media (max-width: 480px) {
   form {
     width: 250px;
-    padding: 10px 0;
+    padding: 20px 10px;
   }
   form h2 {
     font-size: 1.5rem;
   }
   form .btn {
     height: 35px;
-    width: 95%;
+    width: 70%;
   }
   form a {
     font-size: 16px;
